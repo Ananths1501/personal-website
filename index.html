@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananthakumar S</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll to top button -->
+    <button id="scrollToTop" class="scroll-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">ANANTHAKUMAR S<span class="accent-text"></span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 text-center">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Hello, this is <span class="gradient-text">Ananthakumar S</span></h1>
+                        <div class="typewriter-container">
+                            <span class="typewriter-prefix">I am </span>
+                            <span class="typewriter-text" id="typewriter"></span>
+                            <span class="typewriter-cursor">|</span>
+                        </div>
+                        <div class="hero-buttons mt-5">
+                            <a href="#about" class="btn btn-primary me-3">
+                                <i class="fas fa-user me-2"></i>About Me
+                            </a>
+                            <a href="https://drive.google.com/file/d/17XnZxirMQz2n5xvDzuVJbW27IDLC7FPn/view?usp=drive_link" target="_blank" class="btn btn-outline">
+                                <i class="fas fa-file-alt me-2"></i>Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container section-container">
+            <div class="section-title text-center mb-5">
+                <h2 class="gradient-heading">About Me</h2>
+                <h3 class="subtitle">Who I Am</h3>
+                <div class="line"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0 order-2 order-lg-1">
+                    <div class="about-content">
+                        <h3>Hello, I'm <span class="accent-text">Ananthakumar S</span></h3>
+                        <p class="lead">A passionate <strong>Web Application Backend Developer</strong> and <strong>Data Science Enthusiast</strong> with a strong foundation in programming, analytics, and problem-solving.</p>
+                        
+                        <div class="why-work-with-me mt-4">
+                            <h4>Why Work With Me?</h4>
+                            <p>I bring a unique blend of technical expertise in backend development and data science to every project. My experience with frameworks like Express.js, Node.js, and Django combined with my knowledge of data analysis and machine learning algorithms allows me to build robust, data-driven applications. I'm committed to delivering high-quality solutions that drive meaningful impact and exceed expectations.</p>
+                        </div>
+                        
+                        <div class="mt-4 about-buttons">
+                            <a href="https://drive.google.com/file/d/17XnZxirMQz2n5xvDzuVJbW27IDLC7FPn/view?usp=drive_link" target="_blank" class="btn btn-primary me-2">
+                                <i class="fas fa-file-alt me-2"></i>View Resume
+                            </a>
+                            <a href="#contact" class="btn btn-outline">
+                                <i class="fas fa-envelope me-2"></i>Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
+                    <div class="about-img-container">
+                        <div class="about-img-wrapper">
+                            <img src="./images/ananthakumar.jpeg" alt="Profile Image" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="social-links mt-4">
+                        <a href="https://www.linkedin.com/in/ananth1501" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Ananths1501" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://leetcode.com/u/CSE_22CSR016/" target="_blank" class="social-icon"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section-padding ">
+        <div class="container section-container dark-section">
+            <div class="section-title text-center mb-5">
+                <h2 class="gradient-heading">My Projects</h2>
+                <div class="line"></div>
+            </div>
+        
+            <div class="projects-carousel-container">
+                <button id="prevProject" class="carousel-control prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            
+                <div class="projects-carousel">
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="./images/bookworm.png" alt="Book Worm" class="img-fluid">
+                        </div>
+                        <div class="project-details">
+                            <h4>Book Worm</h4>
+                            <p>A personalized book recommendation system (2024)</p>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4>Book Worm</h4>
+                                <p>Built a React.js based web app with Node.js and MongoDB, providing personalized book recommendations based on user preferences.</p>
+                                <p class="tech-stack">React.js, Node.js, MongoDB, Express.js</p>
+                                <div class="project-buttons">
+                                    <a href="https://bookworm-three.vercel.app/" class="btn btn-sm btn-primary" target="_blank">View Site</a>
+                                    <a href="https://github.com/Ananths1501/bookworm/tree/master" class="btn btn-sm btn-outline-light">View Git</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/600x400?text=Restaurant+Booking+System" alt="Restaurant Table Booking System" class="img-fluid">
+                        </div>
+                        <div class="project-details">
+                            <h4>Restaurant Table Booking System</h4>
+                            <p>A full-stack restaurant reservation application (2024)</p>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4>Restaurant Table Booking System</h4>
+                                <p>Designed a full stack web application using React.js, Node.js, and MySQL to enable seamless restaurant reservations.</p>
+                                <p class="tech-stack">React.js, Node.js, MySQL, Express.js</p>
+                                <div class="project-buttons">
+                                    <a href="#" class="btn btn-sm btn-primary">View Site</a>
+                                    <a href="https://github.com/Ananths1501/project/tree/master/restaurant%20management%20system" class="btn btn-sm btn-outline-light">View Git</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/600x400?text=Bakery+Stock+Management" alt="Bakery Stock Management System" class="img-fluid">
+                        </div>
+                        <div class="project-details">
+                            <h4>Bakery Stock Management System</h4>
+                            <p>An inventory management solution for bakeries (2024)</p>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4>Bakery Stock Management System</h4>
+                                <p>Developed a Python, MySQL application to track bakery inventory, sales, and stock levels efficiently.</p>
+                                <p class="tech-stack">Python, MySQL, Tkinter</p>
+                                <div class="project-buttons">
+                                    <a href="#" class="btn btn-sm btn-primary">View Git Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Project Card 4 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/600x400?text=Sarcasm+Detection" alt="Sarcasm Detection in Tamil" class="img-fluid">
+                        </div>
+                        <div class="project-details">
+                            <h4>Sarcasm Detection in Tamil</h4>
+                            <p>NLP model for detecting sarcasm in Tamil language (2024)</p>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4>Sarcasm Detection in Tamil</h4>
+                                <p>Implemented CNN, RNN, Logistic Regression models for sarcasm detection in Tamil texts.</p>
+                                <p class="tech-stack">Python, TensorFlow, NLTK, Scikit-learn</p>
+                                <div class="project-buttons">
+                                    <a href="#" class="btn btn-sm btn-primary">View Git Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Project Card 5 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/600x400?text=Hate+Speech+Detection" alt="Hate Speech Detection" class="img-fluid">
+                        </div>
+                        <div class="project-details">
+                            <h4>Hate Speech Detection</h4>
+                            <p>Multi-lingual hate speech detection system (2025)</p>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4>Hate Speech Detection</h4>
+                                <p>Developed a BERT, RoBERTa, CNN based AI model to detect hate speech in Tamil, Telugu, Malayalam.</p>
+                                <p class="tech-stack">Python, PyTorch, Transformers, Hugging Face</p>
+                                <div class="project-buttons">
+                                    <a href="#" class="btn btn-sm btn-primary">View Demo</a>
+                                    <a href="#" class="btn btn-sm btn-outline-light">View Git</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Project Card 6 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/600x400?text=Sentiment+Analysis" alt="Sentiment Analysis" class="img-fluid">
+                        </div>
+                        <div class="project-details">
+                            <h4>Sentiment Analysis in Tamil & Tulu</h4>
+                            <p>Emotion classification for low-resource languages (2025)</p>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4>Sentiment Analysis in Tamil & Tulu</h4>
+                                <p>Built an AI model using RNN and RoBERTa to classify emotions from text data.</p>
+                                <p class="tech-stack">Python, TensorFlow, Transformers, NLTK</p>
+                                <div class="project-buttons">
+                                    <a href="#" class="btn btn-sm btn-primary">View Git Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <button id="nextProject" class="carousel-control next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container section-container">
+            <div class="section-title text-center mb-5">
+                <h2 class="gradient-heading">My Skills</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="skills-container">
+                <!-- Area of Interest Card - Now smaller and at the top -->
+                <div class="interest-card compact align-items-center">
+                    <h4>Area of Interest</h4>
+                    <div class="interest-tags ">
+                        <span class="interest-tag"><i class="fas fa-server me-2"></i>Web Application Backend Development</span></br>
+                        <span class="interest-tag"><i class="fas fa-chart-line me-2"></i>Data Science</span></br>
+                        <span class="interest-tag"><i class="fas fa-brain me-2"></i>Machine Learning & AI</span></br>
+                        <span class="interest-tag"><i class="fas fa-language me-2"></i>Natural Language Processing</span>
+                    </div>
+                </div>
+                
+                <!-- Skills Flex Container -->
+                <div class="skills-flex-container">
+                    <!-- Left Side - Circular Skills -->
+                    <div class="skills-left">
+                        <h4 class="mb-4">Programming Languages</h4>
+                        <div class="circular-skills">
+                            <!-- Python Skill -->
+                            <div class="circular-progress" data-skill="Python" data-level="Intermediate">
+                                <svg viewBox="0 0 100 100">
+                                    <defs>
+                                        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" stop-color="#e41f3b" />
+                                            <stop offset="50%" stop-color="#9c27b0" />
+                                            <stop offset="100%" stop-color="#3a3dc4" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="bg" cx="50" cy="50" r="40" />
+                                    <circle class="progress intermediate" cx="50" cy="50" r="40" />
+                                </svg>
+                                <div class="skill-info">
+                                    <div class="name">Python</div>
+                                    <div class="level">Intermediate</div>
+                                </div>
+                            </div>
+                            
+                            <!-- C Skill -->
+                            <div class="circular-progress" data-skill="C" data-level="Intermediate">
+                                <svg viewBox="0 0 100 100">
+                                    <circle class="bg" cx="50" cy="50" r="40" />
+                                    <circle class="progress intermediate" cx="50" cy="50" r="40" />
+                                </svg>
+                                <div class="skill-info">
+                                    <div class="name">C</div>
+                                    <div class="level">Intermediate</div>
+                                </div>
+                            </div>
+                            
+                            <!-- HTML/CSS Skill -->
+                            <div class="circular-progress" data-skill="HTML/CSS" data-level="Intermediate">
+                                <svg viewBox="0 0 100 100">
+                                    <circle class="bg" cx="50" cy="50" r="40" />
+                                    <circle class="progress intermediate" cx="50" cy="50" r="40" />
+                                </svg>
+                                <div class="skill-info">
+                                    <div class="name">HTML/CSS</div>
+                                    <div class="level">Intermediate</div>
+                                </div>
+                            </div>
+                            
+                            <!-- JavaScript Skill -->
+                            <div class="circular-progress" data-skill="JavaScript" data-level="Basic">
+                                <svg viewBox="0 0 100 100">
+                                    <circle class="bg" cx="50" cy="50" r="40" />
+                                    <circle class="progress basic" cx="50" cy="50" r="40" />
+                                </svg>
+                                <div class="skill-info">
+                                    <div class="name">JavaScript</div>
+                                    <div class="level">Basic</div>
+                                </div>
+                            </div>
+                            
+                            <!-- Java Skill -->
+                            <div class="circular-progress" data-skill="Java" data-level="Basic">
+                                <svg viewBox="0 0 100 100">
+                                    <circle class="bg" cx="50" cy="50" r="40" />
+                                    <circle class="progress basic" cx="50" cy="50" r="40" />
+                                </svg>
+                                <div class="skill-info">
+                                    <div class="name">Java</div>
+                                    <div class="level">Basic</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Side - Frameworks & Tools -->
+                    <div class="skills-right">
+                        <h4 class="mb-4">Backend Development</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">RESTful APIs</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Authentication</span>
+                            <span class="skill-tag">Server Management</span>
+                        </div>
+                        
+                        <h4 class="mb-3 mt-5">Data Science Tools</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">NLTK</span>
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">Matplotlib</span>
+                            <span class="skill-tag">Jupyter</span>
+                        </div>
+                        
+                        <h4 class="mb-3 mt-5">Other Tools</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">MATLAB</span>
+                            <span class="skill-tag">Salesforce</span>
+                            <span class="skill-tag">AWS (Basic)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section-padding ">
+    <div class="container section-container dark-section">
+        <div class="section-title text-center mb-5">
+            <h2 class="gradient-heading">My Experience</h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="experience-carousel-container">
+            <button id="prevExperience" class="carousel-control prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="experience-carousel">
+                <!-- Experience Card 1 -->
+                <div class="experience-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="icon-box">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h4>Data Science Internship</h4>
+                            <p class="mb-0">Gained hands-on experience in data analysis, machine learning, and visualization techniques.</p>
+                        </div>
+                        <div class="card-back">
+                            <h4>Data Science Internship</h4>
+                            <p class="institution">CodeAlpha</p>
+                            <p class="year">2024</p>
+                            <p>Worked on real-world data science projects, implementing machine learning algorithms and creating insightful visualizations.</p>
+                            <a href="#" class="btn btn-sm btn-primary mt-2">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience Card 2 -->
+                <div class="experience-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="icon-box">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h4>In-Plant Training</h4>
+                            <p class="mb-0">Learned about industrial automation and software development processes.</p>
+                        </div>
+                        <div class="card-back">
+                            <h4>In-Plant Training</h4>
+                            <p class="institution">GTech Spark, Coimbatore</p>
+                            <p class="year">September 2023</p>
+                            <p>Received comprehensive training on industrial automation systems, software development methodologies, and project management.</p>
+                            <a href="#" class="btn btn-sm btn-primary mt-2">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience Card 3 -->
+                <div class="experience-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="icon-box">
+                                <i class="fas fa-industry"></i>
+                            </div>
+                            <h4>Industry Visit</h4>
+                            <p class="mb-0">Explored industrial automation systems and manufacturing processes.</p>
+                        </div>
+                        <div class="card-back">
+                            <h4>Industry Visit</h4>
+                            <p class="institution">LAMS Automation Pvt. Ltd., Ooty</p>
+                            <p class="year">November 2023</p>
+                            <p>Gained insights into industrial automation, manufacturing processes, and the practical application of engineering principles.</p>
+                            <a href="#" class="btn btn-sm btn-primary mt-2">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience Card 4 -->
+                <div class="experience-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="icon-box">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4>Web Development Workshop</h4>
+                            <p class="mb-0">Learned modern web development techniques and frameworks.</p>
+                        </div>
+                        <div class="card-back">
+                            <h4>Web Development Workshop</h4>
+                            <p class="institution">Tech Innovators</p>
+                            <p class="year">January 2024</p>
+                            <p>Participated in an intensive workshop covering HTML, CSS, JavaScript, and modern frameworks for building responsive web applications.</p>
+                            <a href="#" class="btn btn-sm btn-primary mt-2">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+            <button id="nextExperience" class="carousel-control next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section-padding">
+        <div class="container section-container">
+            <div class="section-title text-center mb-5">
+                <h2 class="gradient-heading">Paper Publications</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="publication-item">
+                        <h4>DravidianLangTech@NAACL 2024 & 2025 workshop</h4>
+                        <p class="publication-status">All papers have been submitted and are currently under review.</p>
+                        <ul class="publication-list">
+                            <li>
+                                <div class="publication-card">
+                                    <div class="publication-status-badge">Submitted</div>
+                                    <h5>Investigation of Machine Learning and Transformer Models for Sarcasm Detection in Dravidian Languages</h5>
+                                    <p class="publication-details">Presented research on sarcasm detection using various ML and transformer models for Dravidian languages.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="publication-card">
+                                    <div class="publication-status-badge">Submitted</div>
+                                    <h5>Abusive Text Detection in Tamil and Malayalam Social Media Comments Using Machine Learning</h5>
+                                    <p class="publication-details">Developed models to identify and classify abusive content in social media comments in Tamil and Malayalam languages.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="publication-card">
+                                    <div class="publication-status-badge">Submitted</div>
+                                    <h5>Sentiment Analysis for Low-Resource Languages: Insights from Tamil and Tulu using Deep Learning and Machine Learning Models</h5>
+                                    <p class="publication-details">Explored sentiment analysis techniques for low-resource Dravidian languages using various ML and DL approaches.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container section-container">
+            <div class="section-title text-center mb-5">
+                <h2 class="gradient-heading">Contact Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="contact-info">
+                        <h3 class="mb-4">Get in Touch</h3>
+                        <p>Feel free to reach out to me for job opportunities, collaborations, or just to say hello. I'm currently seeking backend developer and data science roles where I can apply my skills and continue to grow.</p>
+                        
+                        <div class="contact-item d-flex align-items-center mt-4">
+                            <div class="icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="text ms-3">
+                                <h5>Name</h5>
+                                <p>Ananthakumar S</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-center mt-4">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="text ms-3">
+                                <h5>Location</h5>
+                                <p>Kunnathur, Tiruppur</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-center mt-4">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="text ms-3">
+                                <h5>Email</h5>
+                                <p>ananthakumars.22cse@kongu.edu</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item d-flex align-items-center mt-4">
+                            <div class="icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="text ms-3">
+                                <h5>Phone</h5>
+                                <p>+91 8778430870</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links mt-5">
+                            <a href="https://www.linkedin.com/in/ananth1501" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/Ananths1501" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://leetcode.com/u/CSE_22CSR016/" target="_blank" class="social-icon"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <input type="text" class="form-control" placeholder="Your Name" required id="contactName">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <input type="email" class="form-control" placeholder="Your Email" required id="contactEmail">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <input type="text" class="form-control" placeholder="Subject" required id="contactSubject">
+                            </div>
+                            <div class="mb-4">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required id="contactMessage"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="sendMessageBtn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>&copy; 2025 Ananthakumar S. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
