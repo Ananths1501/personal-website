@@ -22,7 +22,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#home">ANANTHAKUMAR S<span class="accent-text"></span></a>
+            <a class="navbar-brand" style="font-family: Fredericka the Great;" href="#home">ANANTHAKUMAR S<span class="accent-text"></span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon">
                     <i class="fas fa-bars"></i>
@@ -73,7 +73,7 @@
                                 <i class="fas fa-user me-2"></i>About Me
                             </a>
                             <a href="https://drive.google.com/file/d/17XnZxirMQz2n5xvDzuVJbW27IDLC7FPn/view?usp=drive_link" target="_blank" class="btn btn-outline">
-                                <i class="fas fa-file-alt me-2"></i>Download Resume
+                                <i class="fas fa-file-alt me-2"></i>View Resume
                             </a>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
             <div class="section-title text-center mb-5">
                 <h2 class="gradient-heading">About Me</h2>
                 <h3 class="subtitle">Who I Am</h3>
-                <div class="line"></div>
+                <div style="width: 80px; height: 3px; background: var(--gradient); margin: 0 auto;"></div>
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-7 mb-4 mb-lg-0 order-2 order-lg-1">
@@ -114,7 +114,7 @@
                 <div class="col-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
                     <div class="about-img-container">
                         <div class="about-img-wrapper">
-                            <img src="./images/ananthakumar.jpeg" alt="Profile Image" class="img-fluid">
+                            <img src="./ananthakumar.jpeg" alt="Profile Image" class="img-fluid">
                         </div>
                     </div>
                     <div class="social-links mt-4">
@@ -145,7 +145,7 @@
                     <!-- Project Card 1 -->
                     <div class="project-card">
                         <div class="project-img">
-                            <img src="./images/bookworm.png" alt="Book Worm" class="img-fluid">
+                            <img src="./bookworm.png" alt="Book Worm" class="img-fluid">
                         </div>
                         <div class="project-details">
                             <h4>Book Worm</h4>
@@ -167,7 +167,7 @@
                     <!-- Project Card 2 -->
                     <div class="project-card">
                         <div class="project-img">
-                            <img src="https://via.placeholder.com/600x400?text=Restaurant+Booking+System" alt="Restaurant Table Booking System" class="img-fluid">
+                            <img src="./restuarantmanagementsystem.jpeg" alt="Restaurant Table Booking System" class="img-fluid">
                         </div>
                         <div class="project-details">
                             <h4>Restaurant Table Booking System</h4>
@@ -178,9 +178,9 @@
                                 <h4>Restaurant Table Booking System</h4>
                                 <p>Designed a full stack web application using React.js, Node.js, and MySQL to enable seamless restaurant reservations.</p>
                                 <p class="tech-stack">React.js, Node.js, MySQL, Express.js</p>
+                                
                                 <div class="project-buttons">
-                                    <a href="#" class="btn btn-sm btn-primary">View Site</a>
-                                    <a href="https://github.com/Ananths1501/project/tree/master/restaurant%20management%20system" class="btn btn-sm btn-outline-light">View Git</a>
+                                    <a href="https://github.com/Ananths1501/project/tree/master/restaurant%20management%20system" class="btn btn-sm btn-primary">View Git Repository</a>
                                 </div>
                             </div>
                         </div>
@@ -189,19 +189,19 @@
                     <!-- Project Card 3 -->
                     <div class="project-card">
                         <div class="project-img">
-                            <img src="https://via.placeholder.com/600x400?text=Bakery+Stock+Management" alt="Bakery Stock Management System" class="img-fluid">
+                            <img src="./bakeryinventorymanagementsystem.jpeg" alt="Bakery Stock Management System" class="img-fluid">
                         </div>
                         <div class="project-details">
-                            <h4>Bakery Stock Management System</h4>
+                            <h4>Bakery Inventory Management System</h4>
                             <p>An inventory management solution for bakeries (2024)</p>
                         </div>
                         <div class="project-overlay">
                             <div class="project-info">
-                                <h4>Bakery Stock Management System</h4>
+                                <h4>Bakery Inventory Management System</h4>
                                 <p>Developed a Python, MySQL application to track bakery inventory, sales, and stock levels efficiently.</p>
                                 <p class="tech-stack">Python, MySQL, Tkinter</p>
                                 <div class="project-buttons">
-                                    <a href="#" class="btn btn-sm btn-primary">View Git Repository</a>
+                                    <a href="https://github.com/Ananths1501/Bakery-Inventory-Management-System" class="btn btn-sm btn-primary">View Git Repository</a>
                                 </div>
                             </div>
                         </div>
@@ -243,8 +243,7 @@
                                 <p>Developed a BERT, RoBERTa, CNN based AI model to detect hate speech in Tamil, Telugu, Malayalam.</p>
                                 <p class="tech-stack">Python, PyTorch, Transformers, Hugging Face</p>
                                 <div class="project-buttons">
-                                    <a href="#" class="btn btn-sm btn-primary">View Demo</a>
-                                    <a href="#" class="btn btn-sm btn-outline-light">View Git</a>
+                                    <a href="#" class="btn btn-sm btn-primary">View Git Repository</a>
                                 </div>
                             </div>
                         </div>
@@ -278,7 +277,21 @@
             </div>
         </div>
     </section>
-    
+     <!-- Area of Interest Card - Now smaller and at the top -->
+     <section id="about" class="section-padding">
+        <div class="container section-container">
+            <div class="section-title text-center mb-5">
+                <h2 class="gradient-heading">My Area of Interest</h2>
+                <div class="line"></div>
+            </div>
+            <div class="interest-tags " style="text-align: center;">
+                <span class="interest-tag"><i class="fas fa-server me-2"></i>Web Application Backend Development</span></br>
+                <span class="interest-tag"><i class="fas fa-chart-line me-2"></i>Data Science</span></br>
+                <span class="interest-tag"><i class="fas fa-brain me-2"></i>Machine Learning & AI</span></br>
+                <span class="interest-tag"><i class="fas fa-language me-2"></i>Natural Language Processing</span>
+            </div>
+        </div>
+    </section>
 
     <!-- Skills Section -->
     <section id="skills" class="section-padding">
@@ -288,23 +301,15 @@
                 <div class="line"></div>
             </div>
             
-            <div class="skills-container">
-                <!-- Area of Interest Card - Now smaller and at the top -->
-                <div class="interest-card compact align-items-center">
-                    <h4>Area of Interest</h4>
-                    <div class="interest-tags ">
-                        <span class="interest-tag"><i class="fas fa-server me-2"></i>Web Application Backend Development</span></br>
-                        <span class="interest-tag"><i class="fas fa-chart-line me-2"></i>Data Science</span></br>
-                        <span class="interest-tag"><i class="fas fa-brain me-2"></i>Machine Learning & AI</span></br>
-                        <span class="interest-tag"><i class="fas fa-language me-2"></i>Natural Language Processing</span>
-                    </div>
-                </div>
+            
                 
                 <!-- Skills Flex Container -->
                 <div class="skills-flex-container">
                     <!-- Left Side - Circular Skills -->
                     <div class="skills-left">
-                        <h4 class="mb-4">Programming Languages</h4>
+                        <h4 class="mb-4" style="text-align: center;">Programming Languages</h4>
+                        <br>
+                        <br>
                         <div class="circular-skills">
                             <!-- Python Skill -->
                             <div class="circular-progress" data-skill="Python" data-level="Intermediate">
@@ -377,7 +382,7 @@
                     
                     <!-- Right Side - Frameworks & Tools -->
                     <div class="skills-right">
-                        <h4 class="mb-4">Backend Development</h4>
+                        <h4 class="mb-4" style="text-align: center;">Backend Development</h4>
                         <div class="skill-tags">
                             <span class="skill-tag">Express.js</span>
                             <span class="skill-tag">Node.js</span>
@@ -390,7 +395,7 @@
                             <span class="skill-tag">Server Management</span>
                         </div>
                         
-                        <h4 class="mb-3 mt-5">Data Science Tools</h4>
+                        <h4 class="mb-3 mt-5" style="text-align: center;">Data Science Tools</h4>
                         <div class="skill-tags">
                             <span class="skill-tag">Pandas</span>
                             <span class="skill-tag">NumPy</span>
@@ -403,7 +408,7 @@
                             <span class="skill-tag">Jupyter</span>
                         </div>
                         
-                        <h4 class="mb-3 mt-5">Other Tools</h4>
+                        <h4 class="mb-3 mt-5" style="text-align: center;">Other Tools</h4>
                         <div class="skill-tags">
                             <span class="skill-tag">Git</span>
                             <span class="skill-tag">Docker</span>
@@ -532,30 +537,41 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="publication-item">
-                        <h4>DravidianLangTech@NAACL 2024 & 2025 workshop</h4>
-                        <p class="publication-status">All papers have been submitted and are currently under review.</p>
+                        <h4>DravidianLangTech@NAACL 2025 workshop</h4>
                         <ul class="publication-list">
+                            
                             <li>
                                 <div class="publication-card">
-                                    <div class="publication-status-badge">Submitted</div>
-                                    <h5>Investigation of Machine Learning and Transformer Models for Sarcasm Detection in Dravidian Languages</h5>
-                                    <p class="publication-details">Presented research on sarcasm detection using various ML and transformer models for Dravidian languages.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="publication-card">
-                                    <div class="publication-status-badge">Submitted</div>
-                                    <h5>Abusive Text Detection in Tamil and Malayalam Social Media Comments Using Machine Learning</h5>
+                                    <div class="btn btn-sm btn-primary">Published - 2025</div></br>
+                                    <h5>KEC_TECH_TITANS@DravidianLangTech:Abusive Text Detection in Tamil and Malayalam Social Media Comments Using Machine Learning</h5>
                                     <p class="publication-details">Developed models to identify and classify abusive content in social media comments in Tamil and Malayalam languages.</p>
+                                    <div class="project-buttons">
+                                        <a href="https://aclanthology.org/2025.dravidianlangtech-1.45/" class="btn btn-sm btn-primary" target="_blank">View Site</a>
+                                         </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="publication-card">
-                                    <div class="publication-status-badge">Submitted</div>
-                                    <h5>Sentiment Analysis for Low-Resource Languages: Insights from Tamil and Tulu using Deep Learning and Machine Learning Models</h5>
+                                    <div class="btn btn-sm btn-primary">Published - 2025</div>
+                                    <h5>KEC_TECH_TITANS@DravidianLangTech:Sentiment Analysis for Low-Resource Languages: Insights from Tamil and Tulu using Deep Learning and Machine Learning Models</h5>
                                     <p class="publication-details">Explored sentiment analysis techniques for low-resource Dravidian languages using various ML and DL approaches.</p>
+                                    <div class="project-buttons">
+                                        <a href="https://aclanthology.org/2025.dravidianlangtech-1.48/" class="btn btn-sm btn-primary" target="_blank">View Site</a>
+                                         </div>
+                                </div>
                                 </div>
                             </li>
+                            <h4>DravidianLangTech@NAACL 2025 workshop</h4>
+                            <ul class="publication-list">
+                            <li>
+                                <div class="publication-card">
+                                    <div class="btn btn-sm btn-primary">Accepted - 2024</div>
+                                 <h5>Investigation of Machine Learning and Transformer Models for Sarcasm Detection in Dravidian Languages</h5>
+                                    <p class="publication-details">Presented research on sarcasm detection using various ML and transformer models for Dravidian languages.</p>
+                                    
+                                </div>
+                            </li>
+                        </ul>
                         </ul>
                     </div>
                 </div>
